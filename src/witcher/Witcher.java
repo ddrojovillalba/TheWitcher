@@ -46,4 +46,8 @@ public class Witcher {
 			return false;
 		}
 	}
+	
+	public void aumentarVida() {
+		health+=1;
+	}
 }
