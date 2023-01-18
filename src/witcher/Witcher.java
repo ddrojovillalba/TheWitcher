@@ -6,7 +6,7 @@ public class Witcher {
 	private int health;
 	private boolean hasSoul;
 	
-	
+	private int damage;
 	
 	public String getName() {
 		return name;
@@ -45,5 +45,9 @@ public class Witcher {
 		}else {
 			return false;
 		}
-	}
-}
+	public void recieveDamege(int damage) {
+			health -= damage;
+			if(health <0) health = 0;
+				}
+			}
+}}
